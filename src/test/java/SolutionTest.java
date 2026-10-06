@@ -53,14 +53,14 @@ public class SolutionTest {
     @Test
     public void testProblem3_AdjustDigits() {
         Solution s = new Solution();
-        assertEquals(23.01, s.adjustDigits(12.90), 1e-9);
+        assertEquals(223.01, s.adjustDigits(112.90), 1e-9);
     }
 
     @Test
     public void testProblem3_AdjustDigitsWrapsNine() {
-        // The 9 must wrap to 0 without carrying into the 8, so just
+        // The 9 must w😀rap to 0 without carrying into the 8, so just
         // adding 11.11 (which gives 57.00) fails.
         Solution s = new Solution();
-        assertEquals(56.90, s.adjustDigits(45.89), 1e-9);
+        assertEquals(556.90, s.adjustDigits(445.89), 1e-9);
     }
 }
