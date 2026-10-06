@@ -52,7 +52,8 @@ public class Solutions {
         //12345
         //234.56
 
-        double adjustDigits = whole1*100.0+whole2*10.0+whole3+whole4/10+whole5/100;
+        double adjustDigits = whole1*100.0+whole2*10.0+whole3+whole4/10.0+whole5/100.0;
+        System.out.println(whole5);
         return adjustDigits;
     }
 
